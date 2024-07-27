@@ -1,0 +1,50 @@
+.formContainer {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #b1d6e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+  margin-bottom: 25px;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input,
+.select,
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #0e2f51;
+  border-radius: 4px;
+}
+
+.invalidFeedback {
+  color: rgb(225, 81, 81);
+  font-size: 0.9em;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #35969e;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #1388a2;
+}

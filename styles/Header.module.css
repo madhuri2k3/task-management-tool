@@ -1,0 +1,36 @@
+.header {
+  background-color: #35969e; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 10px 0;
+}
+
+.navbar {
+  background-color: #35969e; 
+}
+
+.navbarBrand {
+  font-weight: bold;
+  color: #e3e9ef; 
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px; 
+}
+
+.navLink {
+  color: #f9f4f4; 
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #007bff; 
+}
+
+.navbar-toggler-icon {
+  color: #007bff;
+}
